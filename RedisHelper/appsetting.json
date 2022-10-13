@@ -1,0 +1,17 @@
+{
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft.AspNetCore": "Warning"
+      }
+    },
+    "AllowedHosts": "*",
+    "Redis": {
+      "Default": {
+        "Connection": "192.168.xx.xx:xxxx,password=yourpassword", 
+        "InstanceName": "local",
+        "DefaultDB": "0"
+      }
+    }
+   }
+  
